@@ -1,0 +1,107 @@
+[
+  {
+    "id": "post-001",
+    "title": "Minimalist Wardrobe Staples for Every Season",
+    "slug": "minimalist-wardrobe-staples",
+    "category": "Style",
+    "tags": ["minimal", "wardrobe", "essentials"],
+    "author": "Favour Adebowale",
+    "date": "2025-07-01",
+    "hero": "/mnt/data/2df58a6fd1aeac33a1b828e2c3f5d05d.jpg",
+    "excerpt": "Build a timeless wardrobe with a few high-quality staples you’ll wear again and again.",
+    "content": "<p>When it comes to minimal fashion, quality beats quantity. Start by investing in neutral basics — a clean white tee, a tailored blazer, and comfortable yet sharp trousers. Pair them with statement accessories to change the mood.</p><h3>Key Pieces</h3><ul><li>White tee — breathable cotton</li><li>Tailored blazer — neutral shade</li><li>Classic denim — straight or slim</li></ul><p>Mix textures and keep colours muted for maximum versatility.</p>"
+  },
+
+  {
+    "id": "post-002",
+    "title": "How to Style Oversized Hoodies for Smart Casual",
+    "slug": "style-oversized-hoodies",
+    "category": "Outfit Ideas",
+    "tags": ["hoodie", "street", "casual"],
+    "author": "Sarah Thompson",
+    "date": "2025-06-15",
+    "hero": "https://picsum.photos/seed/faym2/1200/800",
+    "excerpt": "Oversized hoodies aren’t just for the couch — here’s how to make them look intentional and smart.",
+    "content": "<p>Pair oversized hoodies with fitted trousers and smart sneakers. Add a long coat or trench for a refined silhouette.</p><p><strong>Tip:</strong> Keep proportions balanced — oversized on top, slim on bottom.</p>"
+  },
+
+  {
+    "id": "post-003",
+    "title": "Sustainable Fabrics You Should Know",
+    "slug": "sustainable-fabrics",
+    "category": "Sustainability",
+    "tags": ["sustainable", "materials", "eco"],
+    "author": "David Michael",
+    "date": "2025-05-20",
+    "hero": "https://picsum.photos/seed/faym3/1200/800",
+    "excerpt": "A quick guide to fabrics that look great and reduce environmental impact.",
+    "content": "<p>From organic cotton to Tencel, sustainable fabrics are increasingly accessible. Prioritise certifications and learn basic fabric care to prolong garment life.</p>"
+  },
+
+  {
+    "id": "post-004",
+    "title": "Designing a Capsule Collection — Behind the Scenes",
+    "slug": "capsule-collection",
+    "category": "Design",
+    "tags": ["capsule", "design", "collection"],
+    "author": "Favour Adebowale",
+    "date": "2025-03-30",
+    "hero": "https://picsum.photos/seed/faym4/1200/800",
+    "excerpt": "We open the studio doors and show how a capsule collection comes together.",
+    "content": "<p>Concept sketches, fabric selection, and prototypes — each step shapes the final collection. Learn how we cut down a large idea into a tight cohesive range.</p>"
+  },
+
+  {
+    "id": "post-005",
+    "title": "Five Shoes That Upgrade Any Outfit",
+    "slug": "five-shoes-upgrade",
+    "category": "Footwear",
+    "tags": ["shoes", "style", "footwear"],
+    "author": "Sarah Thompson",
+    "date": "2025-01-10",
+    "hero": "https://picsum.photos/seed/faym5/1200/800",
+    "excerpt": "Simple shoe choices that instantly elevate your look.",
+    "content": "<p>From minimal sneakers to leather loafers, the right shoe can refine your outfit immediately. Keep polish and care part of your routine.</p>"
+  },
+
+  {
+    "id": "post-006",
+    "title": "Travel Packing: Minimalist Tips",
+    "slug": "travel-packing-minimalist",
+    "category": "Lifestyle",
+    "tags": ["travel", "packing", "tips"],
+    "author": "David Michael",
+    "date": "2024-11-01",
+    "hero": "https://picsum.photos/seed/faym6/1200/800",
+    "excerpt": "How to pack light and look great on the road.",
+    "content": "<p>Fold smarter, choose multi-use items, stick to a limited colour palette, and always bring a versatile outer layer.</p>"
+  },
+
+  {
+    "id": "post-007",
+    "title": "Care Guide: Make Your Clothes Last",
+    "slug": "care-guide-make-clothes-last",
+    "category": "Care",
+    "tags": ["care", "laundry", "tips"],
+    "author": "Sarah Thompson",
+    "date": "2024-09-22",
+    "hero": "https://picsum.photos/seed/faym7/1200/800",
+    "excerpt": "Simple care routines that extend garment life and look.",
+    "content": "<p>Lower washing temp, air dry when possible, and use gentle detergents. Learn mending basics to keep favourites in rotation longer.</p>"
+  },
+
+  {
+    "id": "post-008",
+    "title": "Accessories: Bags That Actually Work",
+    "slug": "accessories-bags",
+    "category": "Accessories",
+    "tags": ["bags", "accessories", "utility"],
+    "author": "Favour Adebowale",
+    "date": "2024-08-05",
+    "hero": "https://picsum.photos/seed/faym8/1200/800",
+    "excerpt": "Practical and stylish bags to carry your essentials with confidence.",
+    "content": "<p>From crossbody to utility backpack — choose structure and materials that suit your daily needs.</p>"
+  }
+]
+
+

@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FAYM — Contact Us</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+
+    <style>
+      .contact-hero {
+        padding: 80px 0;
+        text-align: center;
+      }
+      .contact-hero h1 {
+        font-size: 48px;
+        font-weight: 800;
+        font-family: 'Montserrat', sans-serif;
+        margin-bottom: 10px;
+      }
+      .contact-hero p {
+        font-size: 18px;
+        color: #555;
+      }
+
+      .contact-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+        margin: 60px 0;
+      }
+
+      .contact-info h3,
+      .contact-form h3 {
+        font-weight: 700;
+        margin-bottom: 12px;
+      }
+
+      .contact-info div {
+        margin-bottom: 18px;
+        font-size: 16px;
+      }
+
+      .contact-form input,
+      .contact-form textarea {
+        width: 100%;
+        padding: 14px;
+        border: 1px solid #ddd;
+        border-radius: 6px;
+        margin-bottom: 12px;
+        font-size: 15px;
+      }
+
+      .contact-form button {
+        background: black;
+        color: white;
+        padding: 14px 24px;
+        font-size: 16px;
+        border-radius: 6px;
+        cursor: pointer;
+      }
+
+      #map {
+        width: 100%;
+        height: 420px;
+        border-radius: 12px;
+        margin-top: 30px;
+      }
+
+      @media(max-width:900px) {
+        .contact-container { grid-template-columns: 1fr; }
+      }
+    </style>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+      <div class="container header-inner">
+         <a class="logo" href="index.html">
+            <span class="logo-text">FAYM</span>
+            <span class="logo-cart">🛍️</span>
+         </a>
+
+         <nav class="main-nav" id="mainNav">
+            <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="shop.html">Shop</a></li>
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="blog.html">Blog</a></li>
+                  <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+         </nav>
+
+         <button class="hamburger" id="hamburger">☰</button>
+      </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="contact-hero">
+    <h1>Contact Us</h1>
+    <p>Have a question? We're here to help anytime.</p>
+  </section>
+
+  <main class="container">
+
+    <div class="contact-container">
+
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <h3>Get in Touch</h3>
+
+        <div><strong>📍 Address:</strong> Ikeja, Lagos State, Nigeria</div>
+        <div><strong>📞 Phone:</strong> +234 805 390 4851</div>
+        <div><strong>📧 Email:</strong> favourferanmi17@gmail.com</div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="contact-form">
+        <h3>Send a Message</h3>
+
+        <form id="contactForm">
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <textarea placeholder="Your Message..." rows="5" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+
+        <p id="contactSuccess" style="display:none; margin-top:10px; color:green;">
+          Message sent successfully ✓
+        </p>
+      </div>
+
+    </div>
+
+    <!-- MAP -->
+    <h3 style="margin-top:50px;">Find Us</h3>
+    <div id="map"></div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <!--- FOOTER-->
+  <footer>
+    <div class="footer-nav">
+
+      <div class="container">
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Popular Categories</h2>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="shop.html" class="footer-nav-link">Fashion</a>
+          </li>
+
+        
+          <li class="footer-nav-item">
+            <a href="shop.html" class="footer-nav-link">Watches</a>
+          </li>
+        </ul>
+
+
+        <ul class="footer-nav-list">
+        
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Products</h2>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Prices drop</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">New products</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Best sales</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Contact us</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="contact.html" class="footer-nav-link">Sitemap</a>
+          </li>
+        
+        </ul>
+
+        <ul class="footer-nav-list">
+        
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Our Company</h2>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="privacy policy.html" class="footer-nav-link">Delivery</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="privacy policy.html" class="footer-nav-link">Legal Notice</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="privacy policy.html" class="footer-nav-link">Terms and conditions</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="about.html" class="footer-nav-link">About us</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="privacy policy.html" class="footer-nav-link">Secure payment</a>
+          </li>
+        
+        </ul>
+
+        <ul class="footer-nav-list">
+        
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Services</h2>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="shop.html" class="footer-nav-link">Prices drop</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="shop.html" class="footer-nav-link">New products</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="shop.html" class="footer-nav-link">Best sales</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="contact.html" class="footer-nav-link">Contact us</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="contact.html" class="footer-nav-link">Sitemap</a>
+          </li>
+        
+        </ul>
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Contact</h2>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <address class="content">
+              Ikeja,Lagos State, Nigeria
+            </address>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="call-outline"></ion-icon>
+            </div>
+
+            <a href="tel:+2348053904851" class="footer-nav-link">+224 8053904851</a>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <a href="mailto:favourferanmi17@gmail.com" class="footer-nav-link">favourferanmi17@gmail.com</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-nav-list">
+
+
+          <li>
+            <ul class="social-link">
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+      <div class="container">
+
+        <img src="image/payment.png" alt="payment method" class="payment-img">
+
+      </div>
+
+    </div>
+
+  </footer>
+
+  <!-- social strip -->
+  <section class="footer-social-strip">
+  <div class="container social-strip-inner">
+
+    <div class="footer-social-icons">
+      <a href="#" class="icon"><img src="image/facebook-svgrepo-com.svg" alt="Facebook"></a>
+      <a href="#" class="icon"><img src="image/instagram-167-svgrepo-com.svg" alt="Instagram"></a>
+      <a href="#" class="icon"><img src="image/twitter-svgrepo-com.svg" alt="Twitter"></a>
+      <a href="#" class="icon"><img src="image/pintrest-svgrepo-com.svg" alt="YouTube"></a>
+    </div>
+
+    <p class="social-strip-text">
+      © 2025 Favour Adebowale • All Rights Reserved
+    </p>
+
+  </div>
+</section>
+  </footer>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+  <script>
+    // Map
+    const map = L.map('map').setView([6.6018, 3.3515], 13); // Ikeja coordinates
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19
+    }).addTo(map);
+
+    L.marker([6.6018, 3.3515]).addTo(map)
+      .bindPopup("FAYM Store Location")
+      .openPopup();
+
+    // Form success popup
+    document.getElementById("contactForm").addEventListener("submit", function(e){
+      e.preventDefault();
+      document.getElementById("contactSuccess").style.display = "block";
+      this.reset();
+    });
+  </script>
+
+</body>
+</html>
